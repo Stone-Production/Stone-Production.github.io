@@ -1,85 +1,181 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Stone Music</title>
-        <meta name="description" content="Stone Music is a high quality discord Music bot with 50+ commands">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="twitter:image" content="https://media.discordapp.net/attachments/1002526632906608671/1054256231256174692/IMG_2379.png" referrerpolicy="no-referrer">
-        <link rel="icon" type="image/x-icon" href="assets/GP.png">
-        <link rel="stylesheet" href="style.css">
-        <meta name="theme-color" content="#2f3136">
-        <style>
-            html {
-                scroll-behavior: smooth;
-            }
-                ::-webkit-scrollbar {
-                width: 10px;
-            }
-                ::-webkit-scrollbar-track {
-                background: #3d3d3d; 
-            }
-                ::-webkit-scrollbar-thumb {
-                background: #ff2609; 
-            }
-            ::-webkit-scrollbar-thumb:hover {
-            background: rgb(30, 30, 34); 
-            }
-        </style>
-     
-     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8086126666853372"
-     crossorigin="anonymous"></script>
-    </head>
-    <body>
-        <div id="particles-js"></div>
-        <div>
-            <nav class="navMenu" id="navMenu">
-                <a href="privacy.html">PRIVACY</a>
-                <a href="patreon.html">PREMIUM</a>
-                <a href="https://discord.gg/TsuDJQQCB5">SUPPORT</a>
-                <a href="https://twitter.com/StoneMusicBot">TWITTER</a>
-            </nav>
-            <img src="assets/gpt.png" alt="alt" class="menu-logo" onclick="togglemenu()">
+<html lang="en">
+  <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Main Website Title -->
+    <title>Stone Music</title>
+	<link rel="canonical" href="https://stonemusic.in" />
+    <!-- Linking Favicon -->
+    <link
+      rel="shortcut icon"
+      href="https://media.discordapp.net/attachments/1070766708706517033/1076598606901018714/IMG_3692.png"
+      type="image/x-icon"
+    />
+    <!-- Linking CSS Stylesheet -->
+    <link rel="stylesheet" href="assets/css/home.css" />
+    <!-- Linking Font Awesome Icons -->
+    <script
+      src="b609cde7a9.js"
+      ></script>
+    <!-- Linking Meta Tags -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Stone Music" />
+    <meta
+      property="og:title"
+      content="Stone Music"
+    />
+    <meta
+      property="og:description"
+      content="Bring the Party to Your Discord Server with Stonemusic!"
+    />
+    <meta
+      property="twitter:image"
+      content="https://media.discordapp.net/attachments/1070766708706517033/1076598606901018714/IMG_3692.png"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#2f3136" />
+  </head>
+  <body>
+    <section class="main">
+      <div class="navbar">
+        <div class="nav-brand-box">
+          <img
+            class="nav-brand-img"
+            src="https://media.discordapp.net/attachments/1070766708706517033/1076598606901018714/IMG_3692.png"
+            alt=""
+          />
+          <h1 class="nav-brand-text">Stone Music</h1>
         </div>
-        <div class="main">
-            <img src="assets/GP.png" alt="Logo" class="logo" width="200">
-            <h1><b>STONE MUSIC</b></h1>
-            <p>Stone Music is a high quality discord music bot with 50+ commands and<br> 12+ audio filters and serving more than 1000+ servers with 11+ million users.</p>
-            <button id="btn"><span>Add To Discord </span></b></button>
-        </div>
-        <div class="fe" id="fe">
-            <h1>FEATURES</h1>
-        </div>
-        <div class="row">
-            <div class="we1">
-                <h3>🎵 Rich in quality</h3>
-                <p>With high quality of beautiful music we also maintain the lag free experience.</p>
+        <ul class="navbar-pc-menu">
+          <li onclick="scrollto('support.html')">Support</li>
+          <li onclick="scrollto('invite.html')">Invite</li>
+          <li onclick="scrollto('patreon.html')">Premium</li>
+          <li onclick="scrollto('links.html')">Projects</li>
+          <div class="separator"></div>
+          <span class="status-circle"></span>
+          <li>Support</li>
+          <div class="separator"></div>
+          <i class="nav-icon fa-brands fa-discord"></i>
+        </ul>
+        <div onclick="toggle_menu()" class="navbar-mobile">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <ul class="navbar-mobile-menu">
+            <li onclick="scrollto('support.html')">Support</li>
+            <div class="mobile-separator"></div>
+            <li onclick="scrollto('invite.html')">Invite</li>
+            <div class="mobile-separator"></div>
+            <li onclick="scrollto('patreon.html')">Premium</li>
+            <div class="mobile-separator"></div>
+            <li onclick="scrollto('links.html')">Projects</li>
+            <div class="mobile-separator"></div>
+            <div class="status-box">
+              <span class="status-circle"></span>
+              <li>Support</li>
             </div>
-            <div class="we1">
-                <h3>⌚ 24/7 Online</h3>
-                <p>Want to listen to some good music at 3 AM in the morning? No problem! just use Stone Music as our bot stays active 24/7.</p>
-            </div>
-            
-            <div class="we1">
-                <h3>🎧 Filters</h3>
-                <p>Stone Music comes with 8+ audio filters you can use them lag-free and without losing that crisp audio quality!</p>
-            </div>
+            <div class="mobile-separator"></div>
+          </ul>
         </div>
-   
-        <div class="info">
-            <h1>WHY US</h1>
-            <p>We have the trust of 11,200,000+ Users, 1000+ Servers! with top-notch quality<br> and blazing fast specifications for the bot with 32 cores of absolute beast performance<br> with 90 Gigabytes of ram to power this beast!</p>
-            <img src="assets/Discord.svg" width="600"/>
-            <footer>
-                <h4>stonemusic © 2022 Copyright</h4>
-                <h4><a href="#navMenu">Back To Top</a></h4>
-                <h4><a href="https://discord.com/invite/TsuDJQQCB5">Support</a></h4>
-            </footer>
+      </div>
+      <div class="home-wrapper">
+        <div class="home-box">
+          <div class="home-text-box">
+            <h1 class="velocity-main-text">Stone Music</h1>
+            <p class="velocity-sub-text">
+              Where music meets community, with Stone Music.
+            </p>
+            <p class="starting-text">Premium Starting From as low as $2.99</p>
+            <div class="services-box">
+	      <a class="service-text" href="https://www.patreon.com/StoneMusicDiscord/membership">User Pemium</a>
+              <a class="service-text" href="https://www.patreon.com/StoneMusicDiscord/membership">Guild Premium</a>
+              <a class="service-text" href="https://www.patreon.com/StoneMusicDiscord/membership">Custom Bot</a>
+            </div>
+          </div>
+          <img class="home-img" src="https://media.discordapp.net/attachments/1070766708706517033/1076620805959602206/IMG_3693.png" alt="" />
         </div>
-        <script src="script.js"></script>
-        <script src="particles.js-master/particles.js"></script>
-        <script src="app.js"></script>
-     <iframe src="https://discord.com/widget?id=989607016219676693&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-    </body>
-</html
+      </div>
+      <div class="feature-wrapper">
+        <div class="feature-container">
+          <div class="feature-box">
+            <img class="feature-img" src="assets/img/lightning.png" alt="" />
+            <h1 class="feature-header">Responsive</h1>
+            <p class="feature-description">
+              we understand the importance of a smooth, uninterrupted music experience. 
+	      Our bot is engineered to respond quickly and efficiently to user commands, 
+	      ensuring that there are no lags or delays in the music playback. With Stone Music, 
+	      you can rest assured that the music will always sound beautiful and be delivered without any interruptions
+            </p>
+          </div>
+          <div class="feature-box">
+            <img class="feature-img" src="assets/img/UI.png" alt="" />
+            <h1 class="feature-header">24/7 Active</h1>
+            <p class="feature-description">
+              With our 24/7 online feature, you can be confident that Stone Music is always 
+	      available to provide the perfect soundtrack to your server. Whether you want to 
+	     listen to music while gaming, hanging out with friends, or simply relaxing, our bot is always there to deliver the tunes.
+            </p>
+          </div>
+          <div class="feature-box">
+            <img class="feature-img" src="assets/img/money.png" alt="" />
+            <h1 class="feature-header">Value for Money</h1>
+            <p class="feature-description">
+              As a premium user of Stone Music, you'll get access to an unparalleled music 
+	      experience at an exceptional value. Our bot delivers high-quality music with 
+	     lightning-fast response times, a vast music library, and custom playlists. 
+             Enjoy priority support and get the best value for your money with Stone Music.
+            </p>
+          </div>
+          <div class="feature-box">
+            <img
+              class="feature-img"
+              src="assets/img/customization.png"
+              alt=""
+            />
+            <h1 class="feature-header">Custom Bots</h1>
+            <p class="feature-description">
+             we understand that every Discord server is unique, and that's why we offer custom 
+	     bot services to cater to your specific needs. Our team of experienced developers 
+             can design and develop custom bots that integrate seamlessly with your server and provide the features you need.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="about" class="aboutme-wrapper">
+        <h1 class="aboutme-header">About Stone Music</h1>
+        <div class="aboutme-box">
+          <img class="aboutme-img" src="https://media.discordapp.net/attachments/1070766708706517033/1076598606901018714/IMG_3692.png" alt="" />
+          <p class="aboutme-description">
+           Stone Music is a feature-packed Discord music bot with lightning-fast response times 
+	   and an extensive music library. With advanced commands for playback control, custom 
+           playlists, and synchronized playback with friends, our bot delivers a seamless music 
+           experience. Customizable settings and a range of additional features are also available 
+	  through our custom bot service.
+	  At Stone Music, we believe that every server deserves a great music experience. Try out 
+          our bot's extensive range of features today and elevate your music experience on your Discord server.
+          </p>
+        </div>
+      </div>
+      <div id="stack" class="stack-wrapper">
+        <h1 class="stack-header">More Bots</h1>
+        <div class="stack-box">
+          <img class="stack-img" href="https://stonemusic.in/invite" src="https://media.discordapp.net/attachments/1070766708706517033/1076608072778272768/CF879958-903B-4B3B-B776-1A936FD0FF5A.jpg" alt="" />
+          <img class="stack-img" href="https://stonemusic.in/stone2" src="https://media.discordapp.net/attachments/1070766708706517033/1076608072346247188/F00E83E1-7979-4399-A44C-7212715316C4.jpg" alt="" />
+          <img class="stack-img" href="https://stonemusic.in/stone3" src="https://media.discordapp.net/attachments/1070766708706517033/1076608072979587163/3C997D1C-445D-4102-9DEC-69195DE84ACF.jpg" alt="" />
+          <img class="stack-img" href="https://stonemusic.in/stone4" src="https://media.discordapp.net/attachments/1070766708706517033/1076608072585318543/BB226E9F-D203-4983-A61B-3FB7815A36CE.jpg" alt="" />
+          <img class="stack-img" href="https://stonemusic.in/stone5" src="https://media.discordapp.net/attachments/1070766708706517033/1076608073180909588/65F19828-A672-4A21-851E-3B19B3C3AF45.jpg" alt="" />
+        </div>
+      </div>
+      <div class="end-line"></div>
+      <p class="copyright-text">Copyright 2021-2023 &copy; Stone Music</p>
+    </section>
+    <!-- Linking Toggle Menu Script -->
+    <script src="assets/js/toggle-menu.js"></script>
+    <!-- Linking Live Status -->
+    <script src="assets/js/live-status.js"></script>
+    <!-- Linking Scroll Script -->
+    <script src="assets/js/scroll.js"></script>
+  </body>
+</html>
