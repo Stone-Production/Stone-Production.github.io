@@ -154,7 +154,6 @@
 }
 .home-img {
   width: 450px;
-  border-radius: 0px;
   cursor: pointer;
   transition: 0.35s;
 }
