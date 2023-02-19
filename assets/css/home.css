@@ -154,7 +154,7 @@
 }
 .home-img {
   width: 450px;
-  border-radius: 2px;
+  border-radius: 0px;
   cursor: pointer;
   transition: 0.35s;
 }
@@ -177,7 +177,7 @@
   margin-top: 5vh;
   background: #1c1c1c;
   padding: 10px 15px;
-  border-radius: 99px;
+  border-radius: 15px;
   border: 2px solid #3b3b3b;
 }
 .services-box {
