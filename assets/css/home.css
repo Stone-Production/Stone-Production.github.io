@@ -6,8 +6,8 @@
   box-sizing: border-box;
 }
 :root {
-  --primary-green: #42b883;
-  --secondary-green: #68d370;
+  --primary-green: #f34149;
+  --secondary-green: #FF004F;
 }
 .main {
   width: 100%;
