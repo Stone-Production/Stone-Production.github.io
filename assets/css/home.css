@@ -6,8 +6,8 @@
   box-sizing: border-box;
 }
 :root {
-  --primary-green: #42b883;
-  --secondary-green: #68d370;
+  --primary-green: #ee3d51;
+  --secondary-green: #ee3d51;
 }
 .main {
   width: 100%;
@@ -342,7 +342,7 @@
   font-size: 15px;
   text-decoration: none;
   border:1.5px solid var(--primary-green);
-  background: #32a06f;
+  background: #ee3d51;
   padding: 10px 15px;
   border-radius: 15px;
   display: inline-block;
