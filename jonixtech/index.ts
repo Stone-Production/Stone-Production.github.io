@@ -12,7 +12,7 @@ app.get("/", (req: Request, res: Response) => {
     res.sendFile(__dirname + '/index.html');
 });
 
-app.listen(port, 'jonixtech.stonemusic.online', () => {
+app.listen(port, () => {
     console.clear();
     console.log(`Server Started on ${port}!`);
 });
