@@ -9,7 +9,7 @@ app.use(favicon(join(__dirname, 'public/favicon.ico')));
 app.use('/public', express.static(join(__dirname, "public")));
 
 app.get("/", (req: Request, res: Response) => {
-    res.sendFile(__dirname + '/index.html');
+    res.sendFile(__dirname + '/aadi.html');
 });
 
 app.listen(port, 'aadi.stonemusic.online', () => {
