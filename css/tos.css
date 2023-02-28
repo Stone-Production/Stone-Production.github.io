@@ -57,8 +57,21 @@ footer {
   border-radius: 10px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
+.privacy-box {
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 800px;
+  width: 90%;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
 
 .terms-box h1 {
+  margin-bottom: 20px;
+}
+.privacy-box h1 {
   margin-bottom: 20px;
 }
 
@@ -98,6 +111,7 @@ main {
 .terms-text ol {
   margin-left: 2rem;
 }
+
 
 .buttons {
   display: flex;
