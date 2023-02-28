@@ -15,7 +15,11 @@ header {
   color: #fff;
   padding: 10px;
 }
-
+.outer-box {
+  background-image: url("https://media.discordapp.net/attachments/1061937537939152906/1079980119352934480/IMG_3874.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 nav ul {
   list-style: none;
   display: flex;
