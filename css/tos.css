@@ -75,7 +75,9 @@ footer {
 .buttons {
   display: flex;
   justify-content: space-between;
+  margin-top: 2rem;
 }
+
 main {
   margin: 0 auto;
   max-width: 800px;
