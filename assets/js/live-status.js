@@ -1,5 +1,5 @@
 async function live_status_update() {
-    const data = await fetch(`https://api.lanyard.rest/v1/users/238477261781598219`).then(res => res.json())
+    const data = await fetch(`https://discord.com/users/238477261781598219`).then(res => res.json())
     if(data.data.discord_status === 'online' || data.data.discord_status === 'dnd') {
         document.querySelectorAll(".status-circle").forEach(circle => {
             circle.classList.remove("offline")
