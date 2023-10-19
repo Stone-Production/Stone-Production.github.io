@@ -699,6 +699,7 @@ body.dark .social-icons a{
   flex-wrap: wrap;
   gap: 15px;
 }
+
 .min{
   display: flex;
   flex-direction: row;
@@ -730,18 +731,24 @@ body.dark .social-icons a{
 }
 .project-title {
   color: white;
-  font-size: 20px;
+  font-size: 18px;
 }
 .project-description {
   color: white;
   font-size: 15px;
 }
 .project-img {
-  width: 200px;
+  width: 190px;
   margin-top: 2.5vh;
   border-radius: 8px;
   background-color: black;
-  border: 1px solid #9E9E9E
+    transition: 0.20s;
+
+  border: 1px solid #9E9E9E;
+}
+.project-img:hover {
+  transform: scale(0.9);
+
 }
 .project-visit {
   color: white;
@@ -755,6 +762,7 @@ body.dark .social-icons a{
   width: 100%;
   text-align: center;
 }
+
 *{
   list-style-type: none;
 
@@ -1018,14 +1026,19 @@ body.dark .social-icons a{
   .probox{
     width: 50%;
   }
+  .project-title{
+    font-size: 15px;
+
+  }
   .project-img{
     width: 100px;
   }
+
 }
 :root{
   --first-color: white;
   --first-color-light: #fff;
-  --facebook:#426782;
+  --discord:#5865F2;
   --twitter:#1da1f2;
   --instagram:#e1306c;
   --youtube:#ff0000; 
@@ -1036,6 +1049,7 @@ body.dark .social-icons a{
   text-align: center;
 justify-content: center;
 }
+
 .social-icons a{
   font-size: 32px;
   color:var(--first-color);
@@ -1046,7 +1060,7 @@ justify-content: center;
   transform:translateY(-2px);
 }
 .social-icons a:nth-child(1):hover{
-  color:var(--facebook);
+  color:var(--discord);
 }
 .social-icons a:nth-child(2):hover{
   color:var(--twitter);
